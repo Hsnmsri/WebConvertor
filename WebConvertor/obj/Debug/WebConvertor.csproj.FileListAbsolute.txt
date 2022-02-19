@@ -9,3 +9,8 @@ F:\Hossein\My Projects\WebConvertor\WebConvertor\WebConvertor\obj\Debug\WebConve
 F:\Hossein\My Projects\WebConvertor\WebConvertor\WebConvertor\obj\Debug\WebConvertor.csproj.CoreCompileInputs.cache
 F:\Hossein\My Projects\WebConvertor\WebConvertor\WebConvertor\obj\Debug\WebConvertor.exe
 F:\Hossein\My Projects\WebConvertor\WebConvertor\WebConvertor\obj\Debug\WebConvertor.pdb
+F:\Hossein\My Projects\WebConvertor\WebConvertor\WebConvertor\bin\Debug\WebConvertor.exe.manifest
+F:\Hossein\My Projects\WebConvertor\WebConvertor\WebConvertor\bin\Debug\WebConvertor.application
+F:\Hossein\My Projects\WebConvertor\WebConvertor\WebConvertor\obj\Debug\WebConvertor.TrustInfo.xml
+F:\Hossein\My Projects\WebConvertor\WebConvertor\WebConvertor\obj\Debug\WebConvertor.exe.manifest
+F:\Hossein\My Projects\WebConvertor\WebConvertor\WebConvertor\obj\Debug\WebConvertor.application
