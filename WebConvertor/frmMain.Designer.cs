@@ -33,22 +33,25 @@
             this.lblRootSize = new System.Windows.Forms.Label();
             this.lblCopyright = new System.Windows.Forms.Label();
             this.lblAdd = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.label10 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
+            this.lblRootUnit = new System.Windows.Forms.Label();
+            this.txtpx = new System.Windows.Forms.TextBox();
+            this.lblCopypx = new System.Windows.Forms.Label();
+            this.lblpx = new System.Windows.Forms.Label();
+            this.lblCopyRem = new System.Windows.Forms.Label();
+            this.lblrem = new System.Windows.Forms.Label();
+            this.txtRem = new System.Windows.Forms.TextBox();
+            this.lblCopyEm = new System.Windows.Forms.Label();
+            this.lblem = new System.Windows.Forms.Label();
+            this.txtEmRoot = new System.Windows.Forms.TextBox();
+            this.lblCopyPercent = new System.Windows.Forms.Label();
+            this.lblPercent = new System.Windows.Forms.Label();
+            this.txtPercent = new System.Windows.Forms.TextBox();
+            this.txtEm = new System.Windows.Forms.TextBox();
+            this.lblemRoot = new System.Windows.Forms.Label();
+            this.lblNewWindow = new System.Windows.Forms.Label();
+            this.lblCopyPt = new System.Windows.Forms.Label();
+            this.lblPt = new System.Windows.Forms.Label();
+            this.txtpt = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // txtFrameName
@@ -71,7 +74,7 @@
             this.txtRootSize.Name = "txtRootSize";
             this.txtRootSize.Size = new System.Drawing.Size(43, 25);
             this.txtRootSize.TabIndex = 1;
-            this.txtRootSize.Text = "200";
+            this.txtRootSize.Text = "16";
             this.txtRootSize.TextChanged += new System.EventHandler(this.txtRootSize_TextChanged);
             // 
             // lblRootSize
@@ -108,202 +111,252 @@
             this.lblAdd.Text = "add";
             this.lblAdd.Click += new System.EventHandler(this.lblAdd_Click);
             // 
-            // label1
+            // lblRootUnit
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(326, 20);
-            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(23, 19);
-            this.label1.TabIndex = 2;
-            this.label1.Text = "px";
+            this.lblRootUnit.AutoSize = true;
+            this.lblRootUnit.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblRootUnit.Location = new System.Drawing.Point(326, 20);
+            this.lblRootUnit.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblRootUnit.Name = "lblRootUnit";
+            this.lblRootUnit.Size = new System.Drawing.Size(23, 19);
+            this.lblRootUnit.TabIndex = 2;
+            this.lblRootUnit.Text = "px";
             // 
-            // textBox1
+            // txtpx
             // 
-            this.textBox1.Font = new System.Drawing.Font("Segoe UI", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(52, 78);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(254, 43);
-            this.textBox1.TabIndex = 3;
-            this.textBox1.Text = "1.1";
+            this.txtpx.Font = new System.Drawing.Font("Segoe UI", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtpx.Location = new System.Drawing.Point(52, 78);
+            this.txtpx.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.txtpx.Name = "txtpx";
+            this.txtpx.Size = new System.Drawing.Size(254, 43);
+            this.txtpx.TabIndex = 3;
+            this.txtpx.Text = "16";
+            this.txtpx.TextChanged += new System.EventHandler(this.txtpx_TextChanged);
             // 
-            // label2
+            // lblCopypx
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Font Awesome 6 Pro Regular", 15F);
-            this.label2.Location = new System.Drawing.Point(317, 93);
-            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(29, 20);
-            this.label2.TabIndex = 2;
-            this.label2.Text = "copy";
+            this.lblCopypx.AutoSize = true;
+            this.lblCopypx.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.lblCopypx.Font = new System.Drawing.Font("Font Awesome 6 Pro Regular", 15F);
+            this.lblCopypx.Location = new System.Drawing.Point(317, 93);
+            this.lblCopypx.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblCopypx.Name = "lblCopypx";
+            this.lblCopypx.Size = new System.Drawing.Size(29, 20);
+            this.lblCopypx.TabIndex = 2;
+            this.lblCopypx.Text = "copy";
+            this.lblCopypx.Click += new System.EventHandler(this.lblCopypx_Click);
             // 
-            // label3
+            // lblpx
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(11, 93);
-            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(23, 19);
-            this.label3.TabIndex = 2;
-            this.label3.Text = "px";
+            this.lblpx.AutoSize = true;
+            this.lblpx.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblpx.Location = new System.Drawing.Point(11, 93);
+            this.lblpx.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblpx.Name = "lblpx";
+            this.lblpx.Size = new System.Drawing.Size(23, 19);
+            this.lblpx.TabIndex = 2;
+            this.lblpx.Text = "px";
             // 
-            // label4
+            // lblCopyRem
             // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Font Awesome 6 Pro Regular", 15F);
-            this.label4.Location = new System.Drawing.Point(317, 144);
-            this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(29, 20);
-            this.label4.TabIndex = 2;
-            this.label4.Text = "copy";
+            this.lblCopyRem.AutoSize = true;
+            this.lblCopyRem.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.lblCopyRem.Font = new System.Drawing.Font("Font Awesome 6 Pro Regular", 15F);
+            this.lblCopyRem.Location = new System.Drawing.Point(317, 144);
+            this.lblCopyRem.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblCopyRem.Name = "lblCopyRem";
+            this.lblCopyRem.Size = new System.Drawing.Size(29, 20);
+            this.lblCopyRem.TabIndex = 2;
+            this.lblCopyRem.Text = "copy";
+            this.lblCopyRem.Click += new System.EventHandler(this.lblCopyRem_Click);
             // 
-            // label5
+            // lblrem
             // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(11, 144);
-            this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(36, 19);
-            this.label5.TabIndex = 2;
-            this.label5.Text = "Rem";
+            this.lblrem.AutoSize = true;
+            this.lblrem.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblrem.Location = new System.Drawing.Point(11, 144);
+            this.lblrem.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblrem.Name = "lblrem";
+            this.lblrem.Size = new System.Drawing.Size(36, 19);
+            this.lblrem.TabIndex = 2;
+            this.lblrem.Text = "Rem";
             // 
-            // textBox2
+            // txtRem
             // 
-            this.textBox2.Font = new System.Drawing.Font("Segoe UI", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(52, 129);
-            this.textBox2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(254, 43);
-            this.textBox2.TabIndex = 3;
-            this.textBox2.Text = "1.1";
+            this.txtRem.Font = new System.Drawing.Font("Segoe UI", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtRem.Location = new System.Drawing.Point(52, 129);
+            this.txtRem.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.txtRem.Name = "txtRem";
+            this.txtRem.Size = new System.Drawing.Size(254, 43);
+            this.txtRem.TabIndex = 3;
+            this.txtRem.Text = "1";
+            this.txtRem.TextChanged += new System.EventHandler(this.txtRem_TextChanged);
             // 
-            // label6
+            // lblCopyEm
             // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Font Awesome 6 Pro Regular", 15F);
-            this.label6.Location = new System.Drawing.Point(317, 195);
-            this.label6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(29, 20);
-            this.label6.TabIndex = 2;
-            this.label6.Text = "copy";
+            this.lblCopyEm.AutoSize = true;
+            this.lblCopyEm.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.lblCopyEm.Font = new System.Drawing.Font("Font Awesome 6 Pro Regular", 15F);
+            this.lblCopyEm.Location = new System.Drawing.Point(317, 195);
+            this.lblCopyEm.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblCopyEm.Name = "lblCopyEm";
+            this.lblCopyEm.Size = new System.Drawing.Size(29, 20);
+            this.lblCopyEm.TabIndex = 2;
+            this.lblCopyEm.Text = "copy";
+            this.lblCopyEm.Click += new System.EventHandler(this.lblCopyEm_Click);
             // 
-            // label7
+            // lblem
             // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(11, 195);
-            this.label7.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(28, 19);
-            this.label7.TabIndex = 2;
-            this.label7.Text = "em";
+            this.lblem.AutoSize = true;
+            this.lblem.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblem.Location = new System.Drawing.Point(11, 195);
+            this.lblem.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblem.Name = "lblem";
+            this.lblem.Size = new System.Drawing.Size(28, 19);
+            this.lblem.TabIndex = 2;
+            this.lblem.Text = "em";
             // 
-            // textBox3
+            // txtEmRoot
             // 
-            this.textBox3.Font = new System.Drawing.Font("Segoe UI", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox3.Location = new System.Drawing.Point(52, 180);
-            this.textBox3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(51, 43);
-            this.textBox3.TabIndex = 3;
-            this.textBox3.Text = "1.1";
+            this.txtEmRoot.Font = new System.Drawing.Font("Segoe UI", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtEmRoot.Location = new System.Drawing.Point(52, 180);
+            this.txtEmRoot.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.txtEmRoot.Name = "txtEmRoot";
+            this.txtEmRoot.Size = new System.Drawing.Size(118, 43);
+            this.txtEmRoot.TabIndex = 3;
+            this.txtEmRoot.Text = "16";
+            this.txtEmRoot.TextChanged += new System.EventHandler(this.txtEmRoot_TextChanged);
             // 
-            // label8
+            // lblCopyPercent
             // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Font Awesome 6 Pro Regular", 15F);
-            this.label8.Location = new System.Drawing.Point(317, 246);
-            this.label8.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(29, 20);
-            this.label8.TabIndex = 2;
-            this.label8.Text = "copy";
+            this.lblCopyPercent.AutoSize = true;
+            this.lblCopyPercent.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.lblCopyPercent.Font = new System.Drawing.Font("Font Awesome 6 Pro Regular", 15F);
+            this.lblCopyPercent.Location = new System.Drawing.Point(317, 246);
+            this.lblCopyPercent.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblCopyPercent.Name = "lblCopyPercent";
+            this.lblCopyPercent.Size = new System.Drawing.Size(29, 20);
+            this.lblCopyPercent.TabIndex = 2;
+            this.lblCopyPercent.Text = "copy";
+            this.lblCopyPercent.Click += new System.EventHandler(this.lblCopyPercent_Click);
             // 
-            // label9
+            // lblPercent
             // 
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(11, 246);
-            this.label9.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(20, 19);
-            this.label9.TabIndex = 2;
-            this.label9.Text = "%";
+            this.lblPercent.AutoSize = true;
+            this.lblPercent.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPercent.Location = new System.Drawing.Point(11, 246);
+            this.lblPercent.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblPercent.Name = "lblPercent";
+            this.lblPercent.Size = new System.Drawing.Size(20, 19);
+            this.lblPercent.TabIndex = 2;
+            this.lblPercent.Text = "%";
             // 
-            // textBox4
+            // txtPercent
             // 
-            this.textBox4.Font = new System.Drawing.Font("Segoe UI", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox4.Location = new System.Drawing.Point(52, 231);
-            this.textBox4.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(254, 43);
-            this.textBox4.TabIndex = 3;
-            this.textBox4.Text = "1.1";
+            this.txtPercent.Font = new System.Drawing.Font("Segoe UI", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtPercent.Location = new System.Drawing.Point(52, 231);
+            this.txtPercent.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.txtPercent.Name = "txtPercent";
+            this.txtPercent.Size = new System.Drawing.Size(254, 43);
+            this.txtPercent.TabIndex = 3;
+            this.txtPercent.Text = "1";
+            this.txtPercent.TextChanged += new System.EventHandler(this.txtPercent_TextChanged);
             // 
-            // textBox5
+            // txtEm
             // 
-            this.textBox5.Font = new System.Drawing.Font("Segoe UI", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox5.Location = new System.Drawing.Point(135, 180);
-            this.textBox5.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(171, 43);
-            this.textBox5.TabIndex = 3;
-            this.textBox5.Text = "1.1";
+            this.txtEm.Font = new System.Drawing.Font("Segoe UI", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtEm.Location = new System.Drawing.Point(244, 180);
+            this.txtEm.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.txtEm.Name = "txtEm";
+            this.txtEm.Size = new System.Drawing.Size(62, 43);
+            this.txtEm.TabIndex = 3;
+            this.txtEm.Text = "0";
             // 
-            // label10
+            // lblemRoot
             // 
-            this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(107, 195);
-            this.label10.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(23, 19);
-            this.label10.TabIndex = 2;
-            this.label10.Text = "px";
+            this.lblemRoot.AutoSize = true;
+            this.lblemRoot.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblemRoot.Location = new System.Drawing.Point(175, 196);
+            this.lblemRoot.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblemRoot.Name = "lblemRoot";
+            this.lblemRoot.Size = new System.Drawing.Size(64, 19);
+            this.lblemRoot.TabIndex = 2;
+            this.lblemRoot.Text = "px To em";
             // 
-            // label11
+            // lblNewWindow
             // 
-            this.label11.AutoSize = true;
-            this.label11.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.Location = new System.Drawing.Point(225, 347);
-            this.label11.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(90, 19);
-            this.label11.TabIndex = 2;
-            this.label11.Text = "New Window";
-            this.label11.Click += new System.EventHandler(this.lblAdd_Click);
+            this.lblNewWindow.AutoSize = true;
+            this.lblNewWindow.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNewWindow.Location = new System.Drawing.Point(225, 347);
+            this.lblNewWindow.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblNewWindow.Name = "lblNewWindow";
+            this.lblNewWindow.Size = new System.Drawing.Size(90, 19);
+            this.lblNewWindow.TabIndex = 2;
+            this.lblNewWindow.Text = "New Window";
+            this.lblNewWindow.Click += new System.EventHandler(this.lblAdd_Click);
+            // 
+            // lblCopyPt
+            // 
+            this.lblCopyPt.AutoSize = true;
+            this.lblCopyPt.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.lblCopyPt.Enabled = false;
+            this.lblCopyPt.Font = new System.Drawing.Font("Font Awesome 6 Pro Regular", 15F);
+            this.lblCopyPt.Location = new System.Drawing.Point(317, 297);
+            this.lblCopyPt.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblCopyPt.Name = "lblCopyPt";
+            this.lblCopyPt.Size = new System.Drawing.Size(29, 20);
+            this.lblCopyPt.TabIndex = 2;
+            this.lblCopyPt.Text = "copy";
+            // 
+            // lblPt
+            // 
+            this.lblPt.AutoSize = true;
+            this.lblPt.Enabled = false;
+            this.lblPt.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPt.Location = new System.Drawing.Point(11, 297);
+            this.lblPt.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblPt.Name = "lblPt";
+            this.lblPt.Size = new System.Drawing.Size(22, 19);
+            this.lblPt.TabIndex = 2;
+            this.lblPt.Text = "pt";
+            // 
+            // txtpt
+            // 
+            this.txtpt.Enabled = false;
+            this.txtpt.Font = new System.Drawing.Font("Segoe UI", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtpt.Location = new System.Drawing.Point(52, 282);
+            this.txtpt.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.txtpt.Name = "txtpt";
+            this.txtpt.Size = new System.Drawing.Size(254, 43);
+            this.txtpt.TabIndex = 3;
             // 
             // frmMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(5F, 11F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(357, 386);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox5);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.label9);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.label10);
-            this.Controls.Add(this.label7);
+            this.Controls.Add(this.txtpt);
+            this.Controls.Add(this.txtPercent);
+            this.Controls.Add(this.txtEm);
+            this.Controls.Add(this.txtEmRoot);
+            this.Controls.Add(this.lblPt);
+            this.Controls.Add(this.txtRem);
+            this.Controls.Add(this.lblPercent);
+            this.Controls.Add(this.txtpx);
+            this.Controls.Add(this.lblemRoot);
+            this.Controls.Add(this.lblem);
             this.Controls.Add(this.txtRootSize);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.label8);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label6);
-            this.Controls.Add(this.label11);
+            this.Controls.Add(this.lblrem);
+            this.Controls.Add(this.lblCopyPt);
+            this.Controls.Add(this.lblRootUnit);
+            this.Controls.Add(this.lblCopyPercent);
+            this.Controls.Add(this.lblpx);
+            this.Controls.Add(this.lblCopyEm);
+            this.Controls.Add(this.lblNewWindow);
             this.Controls.Add(this.lblRootSize);
-            this.Controls.Add(this.label4);
+            this.Controls.Add(this.lblCopyRem);
             this.Controls.Add(this.txtFrameName);
-            this.Controls.Add(this.label2);
+            this.Controls.Add(this.lblCopypx);
             this.Controls.Add(this.lblAdd);
             this.Controls.Add(this.lblCopyright);
             this.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel, ((byte)(178)));
@@ -325,22 +378,25 @@
         private System.Windows.Forms.Label lblCopyright;
         private System.Windows.Forms.Label lblAdd;
         private System.Windows.Forms.TextBox txtFrameName;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.Label lblRootUnit;
+        private System.Windows.Forms.TextBox txtpx;
+        private System.Windows.Forms.Label lblCopypx;
+        private System.Windows.Forms.Label lblpx;
+        private System.Windows.Forms.Label lblCopyRem;
+        private System.Windows.Forms.Label lblrem;
+        private System.Windows.Forms.TextBox txtRem;
+        private System.Windows.Forms.Label lblCopyEm;
+        private System.Windows.Forms.Label lblem;
+        private System.Windows.Forms.TextBox txtEmRoot;
+        private System.Windows.Forms.Label lblCopyPercent;
+        private System.Windows.Forms.Label lblPercent;
+        private System.Windows.Forms.TextBox txtPercent;
+        private System.Windows.Forms.TextBox txtEm;
+        private System.Windows.Forms.Label lblemRoot;
+        private System.Windows.Forms.Label lblNewWindow;
+        private System.Windows.Forms.Label lblCopyPt;
+        private System.Windows.Forms.Label lblPt;
+        private System.Windows.Forms.TextBox txtpt;
     }
 }
 
